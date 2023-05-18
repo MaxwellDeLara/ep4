@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "cabeça cabeçca cabeça cabeça"
+    "lateral prin prin prin"
+    "pé pé pé pé";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+#grad_h{
+    grid-area: cabeça;
+    background-color: black;
+}
+
+#grad_m{
+    grid-area: prin;
+    background-color: aqua;
+}
+
+#grad_f{
+    grid-area: pé;
+    background-color: blue;
+}
+
+#grad_a{
+    grid-area: lateral;
+    background-color: red;
+}
+
+#Titulo{
+    text-align: center;
+}
