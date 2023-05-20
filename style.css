@@ -1,7 +1,7 @@
 body{
     display: grid;
-    grid-template-areas:
-    "cabeça cabeçca cabeça cabeça"
+    grid-template-areas: 
+    "cabeça cabeça cabeça cabeça"
     "lateral prin prin prin"
     "pé pé pé pé";
     grid-template-columns: auto auto auto auto;
@@ -10,24 +10,26 @@ body{
 
 #grad_h{
     grid-area: cabeça;
-    background-color: black;
+    background-color: aquamarine;
+    text-align: center;
 }
 
 #grad_m{
     grid-area: prin;
-    background-color: aqua;
+    background-color: brown;
+    font-size: 120%;
 }
 
 #grad_f{
     grid-area: pé;
-    background-color: blue;
+    background-color: black;
 }
 
 #grad_a{
     grid-area: lateral;
-    background-color: red;
+    background-color: green;
 }
 
-#Titulo{
-    text-align: center;
+#headimg{
+    width: 7rem;
 }
