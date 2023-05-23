@@ -12,16 +12,15 @@ body{
     grid-area: cabeça;
     background-color: white;
     text-align: center;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1px 20px 1px 20px;
 }
 
 #grad_m{
     grid-area: prin;
     background-color: white;
     font-size: 120%;
-    text-align:justify;
-    margin: auto;
-    max-width: 800px;
-    color: black;
 }
 
 #grad_f{
@@ -36,4 +35,9 @@ body{
 
 #headimg{
     width: 7rem;
+}
+
+p{
+    color: black;
+    font-size: 25px;
 }
