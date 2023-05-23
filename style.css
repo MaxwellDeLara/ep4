@@ -18,6 +18,10 @@ body{
     grid-area: prin;
     background-color: white;
     font-size: 120%;
+    text-align:justify;
+    margin: auto;
+    max-width: 800px;
+    color: black;
 }
 
 #grad_f{
@@ -32,18 +36,4 @@ body{
 
 #headimg{
     width: 7rem;
-}
-
-header{
-    text-align: center;
-    padding: 10px;
-}
-
-main{
-    text-align: justify;
-    color: black;
-}
-
-aside{
-    color: black;
 }
