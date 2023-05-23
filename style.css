@@ -11,6 +11,7 @@ body{
 #grad_h{
     grid-area: cabeça;
     background-color: white;
+    text-align: center;
 }
 
 #grad_m{
