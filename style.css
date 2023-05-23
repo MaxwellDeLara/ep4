@@ -9,6 +9,7 @@ body{
 }
 
 #grad_h{
+    background-color: whitesmoke;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
