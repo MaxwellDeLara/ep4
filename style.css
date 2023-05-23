@@ -9,29 +9,39 @@ body{
 }
 
 #grad_h{
-    background-color: whitesmoke;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    grid-area: cabeça;
+    background-color: white;
 }
 
 #grad_m{
     grid-area: prin;
-    background-color: brown;
+    background-color: white;
     font-size: 120%;
 }
 
 #grad_f{
     grid-area: pé;
-    background-color: black;
+    background-color: white;
 }
 
 #grad_a{
     grid-area: lateral;
-    background-color: green;
+    background-color: white;
 }
 
 #headimg{
     width: 7rem;
+}
+
+header{
+
+}
+
+main{
+    text-align:justify;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1px 20px 1px 20px;
 }
