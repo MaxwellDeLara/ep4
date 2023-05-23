@@ -10,27 +10,25 @@ body{
 
 #grad_h{
     grid-area: cabeça;
-    background-color: white;
+    background-color: rgb(0, 81, 255);
     text-align: center;
     max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 1px 20px 1px 20px;
 }
 
 #grad_m{
     grid-area: prin;
-    background-color: white;
+    background-color: cyan;
     font-size: 120%;
 }
 
 #grad_f{
     grid-area: pé;
-    background-color: white;
+    background-color: deepskyblue;
 }
 
 #grad_a{
     grid-area: lateral;
-    background-color: white;
+    background-color: darkcyan;
 }
 
 #headimg{
