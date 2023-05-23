@@ -9,9 +9,10 @@ body{
 }
 
 #grad_h{
-    grid-area: cabeça;
-    background-color: aquamarine;
-    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #grad_m{
