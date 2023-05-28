@@ -22,7 +22,7 @@ body{
 #grad_m{
     grid-area: prin;
     background-color: lightblue;
-    font-size: 120%;
+    font-size: 20px;
     align-items: center;
     text-align: center;
 }
@@ -31,40 +31,35 @@ body{
     grid-area: pé;
     background-color:cornflowerblue;
     background-image: linear-gradient(to right, cyan, rgb(49, 175, 233), rgb(83, 194, 231));
+    padding: 20px 0; /* Espaçamento interno do footer */
+    text-align: center; /* Alinhamento do texto no centro */
+    font-size: 21px;    
 }
 
 #grad_a{
     grid-area: lateral;
     background-color: lightslategray;
     border: 6px groove darkblue;
+    font-size: 20px;
 }
 
 #headimg{
-    width: 7rem;
+    width: 100px;
+    height: 100px;
+    background-image: url(Imagens/Barco.png);
+    transition: 2s;
 }
 
+#headimg:hover{
+  transform: scale(1.3);
+}
 .Image{
     width: 450px;
     border: 6px groove darkblue;
     border-radius: 10%;
 }
 
-.logo {
-    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
-    height: 100px;
-    background-image: url(Imagens/Barco.png);
-    animation: moveLogo 2s infinite; /* Define a animação com nome, duração e repetição */
-  }
-  
-  @keyframes moveLogo {
-    0% {
-      transform: translateX(0); /* Define a posição inicial da logo */
-    }
-    50% {
-      transform: translateX(200px); /* Define a posição intermediária da logo */
-    }
-    100% {
-      transform: translateX(0); /* Define a posição final da logo */
-    }
-  }
-  
+.container{
+  max-width: 960px; /* Largura máxima do conteúdo do footer */
+  margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+}
