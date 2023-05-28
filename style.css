@@ -48,3 +48,23 @@ body{
     border: 6px groove darkblue;
     border-radius: 10%;
 }
+
+.logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    height: 100px;
+    background-image: url(Imagens/Barco.png);
+    animation: moveLogo 2s infinite; /* Define a animação com nome, duração e repetição */
+  }
+  
+  @keyframes moveLogo {
+    0% {
+      transform: translateX(0); /* Define a posição inicial da logo */
+    }
+    50% {
+      transform: translateX(200px); /* Define a posição intermediária da logo */
+    }
+    100% {
+      transform: translateX(0); /* Define a posição final da logo */
+    }
+  }
+  
